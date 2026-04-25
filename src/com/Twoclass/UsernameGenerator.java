@@ -1,6 +1,8 @@
 package com.Twoclass;
 
 public class UsernameGenerator {
+
+	
 public String getUsername(String fname, String lname,int yob) {
 	int year=yob%100;
 	String username = fname +lname+year;
