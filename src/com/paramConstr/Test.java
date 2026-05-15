@@ -1,0 +1,9 @@
+package com.paramConstr;
+
+public class Test {
+public static void main(String[] args) {
+	Student s1= new Student(22,"Suyash","Nandura");
+	s1.printName();
+	
+}
+}
